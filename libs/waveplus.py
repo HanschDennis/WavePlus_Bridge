@@ -53,7 +53,7 @@ class WavePlus():
         self.mac_addr = None
         self.sn = str(sn)
         self.name = name if name != "" else str(sn)
-        self.uuid = UUID("b42e2a68-ade7-11e4-89d3-123b93f75cba")
+        self.uuid = UUID("b42e4dcc-ade7-11e4-89d3-123b93f75cba")
 
     def stop(self):
         """Stops the BLE connection to the device
